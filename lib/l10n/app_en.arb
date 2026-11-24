@@ -1,0 +1,1186 @@
+{
+  "@@locale": "en",
+  "appName": "Camiva",
+  "@appName": {
+    "description": "The name of the application"
+  },
+  "navHome": "Home",
+  "@navHome": {
+    "description": "Bottom navigation label for the Home tab"
+  },
+  "navChildren": "Children",
+  "@navChildren": {
+    "description": "Bottom navigation label for the Children tab"
+  },
+  "navPayments": "Payments",
+  "@navPayments": {
+    "description": "Bottom navigation label for the Payments tab (parent)"
+  },
+  "navEarnings": "Earnings",
+  "@navEarnings": {
+    "description": "Bottom navigation label for the Earnings tab (teacher)"
+  },
+  "navProfile": "Profile",
+  "@navProfile": {
+    "description": "Bottom navigation label for the Profile tab"
+  },
+  "homeTitle": "Home",
+  "@homeTitle": {
+    "description": "AppBar title for the Home screen"
+  },
+  "profileTitle": "Profile",
+  "@profileTitle": {
+    "description": "AppBar title for the Profile screen"
+  },
+  "placeholderHome": "Your activity will appear here.",
+  "@placeholderHome": {
+    "description": "Placeholder text on the Home screen"
+  },
+  "parentHomeWelcome": "Welcome",
+  "@parentHomeWelcome": {
+    "description": "Greeting on the parent home when there are no children yet"
+  },
+  "parentHomeEmptyBody": "Add your child to get started.",
+  "@parentHomeEmptyBody": {
+    "description": "Guidance shown to a parent with no children"
+  },
+  "addChildButton": "Add your child",
+  "@addChildButton": {
+    "description": "Primary button to add a child"
+  },
+  "childrenTitle": "Children",
+  "@childrenTitle": {
+    "description": "Title for the Children screen"
+  },
+  "childNoTeacher": "No teacher yet",
+  "@childNoTeacher": {
+    "description": "Shown on a child card when no teacher is linked"
+  },
+  "childTeacherConnected": "Teacher connected",
+  "@childTeacherConnected": {
+    "description": "Shown on a child card when a teacher relationship is accepted"
+  },
+  "findTeacherButton": "Find a teacher",
+  "@findTeacherButton": {
+    "description": "Button to start finding a teacher for a child"
+  },
+  "findTeacherComingSoon": "Finding a teacher is coming soon.",
+  "@findTeacherComingSoon": {
+    "description": "Temporary message until teacher search is built"
+  },
+  "addChildTitle": "Add your child",
+  "@addChildTitle": {
+    "description": "Title for the add-child screen"
+  },
+  "addChildNameLabel": "Child's name",
+  "@addChildNameLabel": {
+    "description": "Label for the child's name field"
+  },
+  "addChildLevelLabel": "School level or class",
+  "@addChildLevelLabel": {
+    "description": "Label for the child's school level field"
+  },
+  "addChildNotesLabel": "Notes (optional)",
+  "@addChildNotesLabel": {
+    "description": "Label for the optional notes field"
+  },
+  "addChildSave": "Save",
+  "@addChildSave": {
+    "description": "Save button on the add-child screen"
+  },
+  "addChildStepLabel": "Step {current} of {total}",
+  "@addChildStepLabel": {
+    "description": "Progress label on the add-child steps",
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "addChildStepName": "What is your child's name?",
+  "@addChildStepName": {
+    "description": "Step 1 question: child's name"
+  },
+  "addChildStepClass": "What class is your child in?",
+  "@addChildStepClass": {
+    "description": "Step 2 question: child's class"
+  },
+  "addChildSubjectsLower": "What subjects does your child take?",
+  "@addChildSubjectsLower": {
+    "description": "Step 3 question for Forms 1-3"
+  },
+  "addChildSubjectsUpper": "What subjects is your child taking?",
+  "@addChildSubjectsUpper": {
+    "description": "Step 3 question for Forms 4-5"
+  },
+  "addChildContinue": "Continue",
+  "@addChildContinue": {
+    "description": "Advance to the next add-child step"
+  },
+  "addChildBack": "Back",
+  "@addChildBack": {
+    "description": "Go to the previous add-child step"
+  },
+  "addChildSaveChild": "Save Child",
+  "@addChildSaveChild": {
+    "description": "Final save button on the add-child flow"
+  },
+  "addChildSelectClassError": "Please choose a class to continue.",
+  "@addChildSelectClassError": {
+    "description": "Shown when no class is selected"
+  },
+  "childSubjectCount": "{count, plural, =0{No subjects yet} =1{1 subject} other{{count} subjects}}",
+  "@childSubjectCount": {
+    "description": "Subject count on the child card",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "childDetailEdit": "Edit child",
+  "@childDetailEdit": {
+    "description": "Button to edit a child from the detail screen"
+  },
+  "childDetailClassLabel": "Class",
+  "@childDetailClassLabel": {
+    "description": "Label for the child's class on the detail screen"
+  },
+  "childDetailSubjectsLabel": "Subjects",
+  "@childDetailSubjectsLabel": {
+    "description": "Label for the subjects section on the detail screen"
+  },
+  "childDetailNotesLabel": "Notes",
+  "@childDetailNotesLabel": {
+    "description": "Label for the notes section on the detail screen"
+  },
+  "childDetailNoSubjects": "No subjects added yet.",
+  "@childDetailNoSubjects": {
+    "description": "Shown when a child has no subjects"
+  },
+  "childDetailNotSet": "Not set",
+  "@childDetailNotSet": {
+    "description": "Shown when the class is not set"
+  },
+  "editChildTitle": "Edit child",
+  "@editChildTitle": {
+    "description": "Title of the edit-child screen"
+  },
+  "editChildNameQuestion": "Child's name",
+  "@editChildNameQuestion": {
+    "description": "Name section header on the edit screen"
+  },
+  "editChildClassQuestion": "Class",
+  "@editChildClassQuestion": {
+    "description": "Class section header on the edit screen"
+  },
+  "editChildSave": "Save changes",
+  "@editChildSave": {
+    "description": "Save button on the edit-child screen"
+  },
+  "childrenLoading": "Loading…",
+  "@childrenLoading": {
+    "description": "Loading message on the children/home screens"
+  },
+  "childrenLoadError": "Could not load your children. Please try again.",
+  "@childrenLoadError": {
+    "description": "Error shown when children fail to load"
+  },
+  "teacherHomePlaceholder": "Your teaching space is coming soon.",
+  "@teacherHomePlaceholder": {
+    "description": "Placeholder on the teacher home before Slice 2"
+  },
+  "teacherProfileTitle": "My profile",
+  "@teacherProfileTitle": {
+    "description": "Title of the teacher's own profile"
+  },
+  "teacherNoProfileTitle": "Set up your teaching profile",
+  "@teacherNoProfileTitle": {
+    "description": "Prompt when a teacher has no profile yet"
+  },
+  "teacherNoProfileBody": "Add your subjects and classes so parents can find you.",
+  "@teacherNoProfileBody": {
+    "description": "Body of the no-profile prompt"
+  },
+  "teacherCreateProfile": "Create profile",
+  "@teacherCreateProfile": {
+    "description": "Button to create a teacher profile"
+  },
+  "teacherEditProfile": "Edit profile",
+  "@teacherEditProfile": {
+    "description": "Button to edit a teacher profile"
+  },
+  "teacherEditTitle": "Edit profile",
+  "@teacherEditTitle": {
+    "description": "Title of the teacher profile edit screen"
+  },
+  "teacherNameLabel": "Your name",
+  "@teacherNameLabel": {
+    "description": "Label for the teacher's display name"
+  },
+  "teacherNameSection": "Your name",
+  "@teacherNameSection": {
+    "description": "Section header for the teacher name"
+  },
+  "teacherSubjectsQuestion": "What subjects do you teach?",
+  "@teacherSubjectsQuestion": {
+    "description": "Section header for teacher subjects"
+  },
+  "teacherFormsQuestion": "Which classes do you teach?",
+  "@teacherFormsQuestion": {
+    "description": "Section header for teacher forms"
+  },
+  "teacherBioLabel": "Short bio (optional)",
+  "@teacherBioLabel": {
+    "description": "Label for the teacher bio field"
+  },
+  "teacherBioSection": "About",
+  "@teacherBioSection": {
+    "description": "Section header for the teacher bio"
+  },
+  "teacherProfileSubjectsLabel": "Subjects",
+  "@teacherProfileSubjectsLabel": {
+    "description": "Label for subjects on a teacher profile"
+  },
+  "teacherProfileFormsLabel": "Classes",
+  "@teacherProfileFormsLabel": {
+    "description": "Label for forms/classes on a teacher profile"
+  },
+  "teacherSaveProfile": "Save profile",
+  "@teacherSaveProfile": {
+    "description": "Save button on the teacher edit screen"
+  },
+  "childDetailFindTeacher": "Find a teacher",
+  "@childDetailFindTeacher": {
+    "description": "Primary action on child detail to open discovery"
+  },
+  "discoveryTitle": "Find a teacher",
+  "@discoveryTitle": {
+    "description": "Title of the teacher discovery screen"
+  },
+  "discoveryForChild": "Teachers for {name}",
+  "@discoveryForChild": {
+    "description": "Subtitle showing which child discovery is for",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "discoveryEmptyTitle": "No teachers found",
+  "@discoveryEmptyTitle": {
+    "description": "Title when discovery has no matches"
+  },
+  "discoveryEmptyBody": "We couldn't find a matching teacher for {name} yet. Please check back soon.",
+  "@discoveryEmptyBody": {
+    "description": "Body when discovery has no matches",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "teacherRequestButton": "Request to teach {name}",
+  "@teacherRequestButton": {
+    "description": "Primary action on a teacher profile (deferred)",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "teacherRequestComingSoon": "Requesting a teacher is coming next.",
+  "@teacherRequestComingSoon": {
+    "description": "Shown when the deferred request button is tapped"
+  },
+  "teacherRequestComingSoonCaption": "Coming next",
+  "@teacherRequestComingSoonCaption": {
+    "description": "Caption under the deferred request button"
+  },
+  "teacherProfileNoBio": "No bio yet.",
+  "@teacherProfileNoBio": {
+    "description": "Shown when a teacher has no bio"
+  },
+  "placeholderProfile": "Your profile will appear here.",
+  "@placeholderProfile": {
+    "description": "Placeholder text on the Profile screen"
+  },
+  "roleParent": "Parent",
+  "@roleParent": {
+    "description": "Label for the Parent role"
+  },
+  "roleTeacher": "Teacher",
+  "@roleTeacher": {
+    "description": "Label for the Teacher role"
+  },
+  "roleStudent": "Student",
+  "@roleStudent": {
+    "description": "Label for the Student role"
+  },
+  "roleChoiceParent": "I am a Parent",
+  "@roleChoiceParent": {
+    "description": "Friendly Parent option on the role chooser"
+  },
+  "roleChoiceParentHint": "Manage your children and find teachers for them.",
+  "@roleChoiceParentHint": {
+    "description": "Supporting text for the Parent role option"
+  },
+  "roleChoiceTeacher": "I am a Teacher",
+  "@roleChoiceTeacher": {
+    "description": "Friendly Teacher option on the role chooser"
+  },
+  "roleChoiceTeacherHint": "Share what you teach and connect with families.",
+  "@roleChoiceTeacherHint": {
+    "description": "Supporting text for the Teacher role option"
+  },
+  "roleChoiceStudent": "I am a Student",
+  "@roleChoiceStudent": {
+    "description": "Friendly Student option on the role chooser"
+  },
+  "roleChoiceStudentHint": "See your subjects, teachers and lessons.",
+  "@roleChoiceStudentHint": {
+    "description": "Supporting text for the Student role option"
+  },
+  "navLearning": "Learning",
+  "@navLearning": {
+    "description": "Bottom navigation label for the student Learning tab"
+  },
+  "studentHomeGreeting": "Hello, {name}",
+  "@studentHomeGreeting": {
+    "description": "Greeting on the student home screen",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "studentProfileTitle": "My profile",
+  "@studentProfileTitle": {
+    "description": "Title of the student profile screen"
+  },
+  "studentSetupTitle": "Your school details",
+  "@studentSetupTitle": {
+    "description": "Heading above the education questions during student signup"
+  },
+  "devRoleSwitchLabel": "Switch role (dev only)",
+  "@devRoleSwitchLabel": {
+    "description": "Label for the dev-only role switcher"
+  },
+  "loginTitle": "Sign in",
+  "@loginTitle": {
+    "description": "Title for the Login screen"
+  },
+  "loginSubtitle": "Welcome back to Camiva.",
+  "@loginSubtitle": {
+    "description": "Subtitle shown on the Login screen"
+  },
+  "loginButton": "Sign in",
+  "@loginButton": {
+    "description": "Primary action button on the Login screen"
+  },
+  "loginNoAccount": "Don't have an account?",
+  "@loginNoAccount": {
+    "description": "Prompt to navigate to registration"
+  },
+  "loginRegisterLink": "Register",
+  "@loginRegisterLink": {
+    "description": "Link to the Register screen from Login"
+  },
+  "registerTitle": "Create account",
+  "@registerTitle": {
+    "description": "Title for the Register screen"
+  },
+  "registerSubtitle": "Join Camiva.",
+  "@registerSubtitle": {
+    "description": "Subtitle shown on the Register screen"
+  },
+  "registerButton": "Create account",
+  "@registerButton": {
+    "description": "Primary action button on the Register screen"
+  },
+  "registerHaveAccount": "Already have an account?",
+  "@registerHaveAccount": {
+    "description": "Prompt to navigate to login"
+  },
+  "registerLoginLink": "Sign in",
+  "@registerLoginLink": {
+    "description": "Link to the Login screen from Register"
+  },
+  "registerRoleLabel": "Tell us who you are",
+  "@registerRoleLabel": {
+    "description": "Label above the role selector on the Register screen"
+  },
+  "registerRolePrompt": "Please choose how you will use Camiva.",
+  "@registerRolePrompt": {
+    "description": "Validation message when no role is chosen at registration"
+  },
+  "registerEmailConfirmation": "Check your email to confirm your account, then sign in.",
+  "@registerEmailConfirmation": {
+    "description": "Message shown after registration when Supabase email confirmation is enabled"
+  },
+  "fieldEmail": "Email",
+  "@fieldEmail": {
+    "description": "Label for the email input field"
+  },
+  "fieldPassword": "Password",
+  "@fieldPassword": {
+    "description": "Label for the password input field"
+  },
+  "fieldConfirmPassword": "Confirm password",
+  "@fieldConfirmPassword": {
+    "description": "Label for the confirm password input field"
+  },
+  "fieldName": "Full name",
+  "@fieldName": {
+    "description": "Label for the name input field"
+  },
+  "validationRequired": "This field is required.",
+  "@validationRequired": {
+    "description": "Generic required field validation message"
+  },
+  "validationEmailInvalid": "Enter a valid email address.",
+  "@validationEmailInvalid": {
+    "description": "Email format validation message"
+  },
+  "validationPasswordTooShort": "Password must be at least 6 characters.",
+  "@validationPasswordTooShort": {
+    "description": "Password length validation message"
+  },
+  "validationPasswordMismatch": "Passwords do not match.",
+  "@validationPasswordMismatch": {
+    "description": "Confirm password mismatch message"
+  },
+  "profileName": "Name",
+  "@profileName": {
+    "description": "Label for the name field on the Profile screen"
+  },
+  "profileEmail": "Email",
+  "@profileEmail": {
+    "description": "Label for the email field on the Profile screen"
+  },
+  "profileRole": "Role",
+  "@profileRole": {
+    "description": "Label for the role field on the Profile screen"
+  },
+  "profileLogout": "Log out",
+  "@profileLogout": {
+    "description": "Logout button label on the Profile screen"
+  },
+  "profileLogoutConfirmTitle": "Log out?",
+  "@profileLogoutConfirmTitle": {
+    "description": "Title of the logout confirmation dialog"
+  },
+  "profileLogoutConfirmBody": "You will need to sign in again to access your account.",
+  "@profileLogoutConfirmBody": {
+    "description": "Body of the logout confirmation dialog"
+  },
+  "profileLogoutConfirm": "Log out",
+  "@profileLogoutConfirm": {
+    "description": "Confirm button in the logout dialog"
+  },
+  "profileLogoutCancel": "Cancel",
+  "@profileLogoutCancel": {
+    "description": "Cancel button in the logout dialog"
+  },
+  "errorBackendNotConfigured": "The app is not connected to a backend. Please contact support.",
+  "@errorBackendNotConfigured": {
+    "description": "Error shown when Supabase credentials are missing"
+  },
+  "errorGeneric": "Something went wrong. Please try again.",
+  "@errorGeneric": {
+    "description": "Generic error message"
+  },
+  "onboardingTitle": "How will you use Camiva?",
+  "@onboardingTitle": {
+    "description": "Title on the onboarding role-selection screen"
+  },
+  "onboardingSubtitle": "Choose your role. You can update this later.",
+  "@onboardingSubtitle": {
+    "description": "Subtitle on the onboarding screen"
+  },
+  "onboardingNameLabel": "Your name",
+  "@onboardingNameLabel": {
+    "description": "Label for the name field on onboarding"
+  },
+  "onboardingRoleLabel": "I am a",
+  "@onboardingRoleLabel": {
+    "description": "Label above the role selector on onboarding"
+  },
+  "onboardingButton": "Continue",
+  "@onboardingButton": {
+    "description": "Primary action button on the onboarding screen"
+  },
+  "onboardingErrorNetwork": "No connection. Please check your internet and try again.",
+  "@onboardingErrorNetwork": {
+    "description": "Network error on onboarding submission"
+  },
+  "loadingProfile": "Loading your profile…",
+  "@loadingProfile": {
+    "description": "Shown while the profile is being fetched on launch"
+  },
+  "errorProfileLoad": "Could not load your profile. Please check your connection.",
+  "@errorProfileLoad": {
+    "description": "Shown when profile fetch fails on launch"
+  },
+  "retryButton": "Retry",
+  "@retryButton": {
+    "description": "Generic retry button label"
+  },
+  "requestSent": "Request sent",
+  "@requestSent": {
+    "description": "Snackbar after a teacher request is successfully sent"
+  },
+  "requestPending": "Request pending",
+  "@requestPending": {
+    "description": "Status label / button state when a request is pending"
+  },
+  "requestAccepted": "Teacher connected",
+  "@requestAccepted": {
+    "description": "Status shown when a request has been accepted"
+  },
+  "requestDeclined": "Request declined",
+  "@requestDeclined": {
+    "description": "Status label when a request was declined"
+  },
+  "requestCancelled": "Request cancelled",
+  "@requestCancelled": {
+    "description": "Status label when a request was cancelled"
+  },
+  "requestCancelButton": "Cancel request",
+  "@requestCancelButton": {
+    "description": "Button for a parent to cancel their pending request"
+  },
+  "requestAlreadySent": "A request has already been sent for this child and teacher.",
+  "@requestAlreadySent": {
+    "description": "Error shown when a duplicate request is attempted"
+  },
+  "parentRequestsTitle": "My Requests",
+  "@parentRequestsTitle": {
+    "description": "Title of the parent's requests screen"
+  },
+  "parentRequestsEmpty": "You have no requests yet.",
+  "@parentRequestsEmpty": {
+    "description": "Shown when the parent has no requests"
+  },
+  "teacherRequestsTitle": "Teaching Requests",
+  "@teacherRequestsTitle": {
+    "description": "Title of the teacher's incoming requests screen"
+  },
+  "teacherRequestsEmpty": "No incoming requests.",
+  "@teacherRequestsEmpty": {
+    "description": "Shown when the teacher has no incoming requests"
+  },
+  "requestAcceptButton": "Accept",
+  "@requestAcceptButton": {
+    "description": "Button for a teacher to accept a request"
+  },
+  "requestDeclineButton": "Decline",
+  "@requestDeclineButton": {
+    "description": "Button for a teacher to decline a request"
+  },
+  "myStudentsTitle": "My Students",
+  "@myStudentsTitle": {
+    "description": "Title of the teacher's connected students screen"
+  },
+  "myStudentsEmpty": "You have no connected students yet.",
+  "@myStudentsEmpty": {
+    "description": "Shown when the teacher has no connected students"
+  },
+  "studentConnectedTeacherLabel": "Teacher",
+  "@studentConnectedTeacherLabel": {
+    "description": "Label for the teacher section on student detail"
+  },
+  "studentNoTeacherYet": "No teacher connected yet.",
+  "@studentNoTeacherYet": {
+    "description": "Shown when a student has no accepted teacher"
+  },
+  "requestChildLabel": "Child",
+  "@requestChildLabel": {
+    "description": "Label for child in a request row"
+  },
+  "requestTeacherLabel": "Teacher",
+  "@requestTeacherLabel": {
+    "description": "Label for teacher in a request row"
+  },
+  "requestStatusLabel": "Status",
+  "@requestStatusLabel": {
+    "description": "Label for status in a request row"
+  },
+  "navRequests": "Updates",
+  "@navRequests": {
+    "description": "Navigation label for requests"
+  },
+  "teacherHomeRequests": "Teaching Requests",
+  "@teacherHomeRequests": {
+    "description": "Button on teacher home to view incoming requests"
+  },
+  "teacherHomeStudents": "My Students",
+  "@teacherHomeStudents": {
+    "description": "Button on teacher home to view connected students"
+  },
+  "studentFormLabel": "Class",
+  "@studentFormLabel": {
+    "description": "Label for a student's school form in teacher views"
+  },
+  "connectedBadge": "Connected",
+  "@connectedBadge": {
+    "description": "Badge shown on an accepted teacher connection"
+  },
+  "requestForChild": "For {name}",
+  "@requestForChild": {
+    "description": "Shows which child a teacher request is for",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "teacherLocationSection": "Location",
+  "@teacherLocationSection": {
+    "description": "Section header for teacher location"
+  },
+  "teacherLocationHint": "Roughly where you teach. Parents see your area, never your exact address.",
+  "@teacherLocationHint": {
+    "description": "Privacy-reassuring hint for the location fields"
+  },
+  "teacherCityLabel": "City / town",
+  "@teacherCityLabel": {
+    "description": "Label for the teacher city field"
+  },
+  "teacherAreaLabel": "Neighbourhood / area (optional)",
+  "@teacherAreaLabel": {
+    "description": "Label for the teacher area field"
+  },
+  "teacherProfileLocationLabel": "Location",
+  "@teacherProfileLocationLabel": {
+    "description": "Label for the location on a teacher profile"
+  },
+  "requestParentOf": "Parent of {name}",
+  "@requestParentOf": {
+    "description": "Safe label for the requesting parent (identified by their child)",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "requestMatchesYourSubjects": "Matches your subjects",
+  "@requestMatchesYourSubjects": {
+    "description": "Hint highlighting subjects the teacher teaches"
+  },
+  "requestRequestedOn": "Requested {date}",
+  "@requestRequestedOn": {
+    "description": "When a request was made",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "requestChildUnavailable": "Child details unavailable",
+  "@requestChildUnavailable": {
+    "description": "Shown when a request has no child snapshot"
+  },
+  "errorGenericTitle": "Something went wrong",
+  "@errorGenericTitle": {
+    "description": "Generic error title"
+  },
+  "errorGenericBody": "Please try again.",
+  "@errorGenericBody": {
+    "description": "Generic error body"
+  },
+  "childrenEmptyTitle": "Add your first child",
+  "@childrenEmptyTitle": {
+    "description": "Empty children title"
+  },
+  "childrenEmptyBody": "Add their Form and subjects to start finding teachers.",
+  "@childrenEmptyBody": {
+    "description": "Empty children body"
+  },
+  "parentHomeChildrenSection": "Your children",
+  "@parentHomeChildrenSection": {
+    "description": "Section header for children on parent home"
+  },
+  "parentHomeAttentionSection": "Needs your attention",
+  "@parentHomeAttentionSection": {
+    "description": "Section header for attention items"
+  },
+  "parentHomeLearningSection": "Recent learning",
+  "@parentHomeLearningSection": {
+    "description": "Section header for recent learning"
+  },
+  "homeQuickActions": "Quick actions",
+  "@homeQuickActions": {
+    "description": "Section header for quick actions"
+  },
+  "childSummary": "{form} · {count, plural, =1{1 subject} other{{count} subjects}}",
+  "@childSummary": {
+    "description": "Compact child summary on home",
+    "placeholders": {
+      "form": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "attentionActivityDue": "{name} has {count, plural, =1{1 activity} other{{count} activities}} due soon.",
+  "@attentionActivityDue": {
+    "description": "Attention item for due activities",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "attentionPendingRequest": "{name} has a pending teacher request.",
+  "@attentionPendingRequest": {
+    "description": "Attention item for pending request",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "requestsNeedsResponse": "Needs your response",
+  "@requestsNeedsResponse": {
+    "description": "Section header for actionable teacher requests"
+  },
+  "requestsConnectedSection": "Connected",
+  "@requestsConnectedSection": {
+    "description": "Section header for accepted connections"
+  },
+  "requestsPendingSection": "Pending",
+  "@requestsPendingSection": {
+    "description": "Section header for pending parent requests"
+  },
+  "requestsHistorySection": "Earlier",
+  "@requestsHistorySection": {
+    "description": "Section header for past requests"
+  },
+  "teacherRequestsEmptyTitle": "No requests yet",
+  "@teacherRequestsEmptyTitle": {
+    "description": "Teacher requests empty title"
+  },
+  "teacherRequestsEmptyBody": "Requests from parents will appear here.",
+  "@teacherRequestsEmptyBody": {
+    "description": "Teacher requests empty body"
+  },
+  "parentRequestsEmptyTitle": "No requests yet",
+  "@parentRequestsEmptyTitle": {
+    "description": "Parent requests empty title"
+  },
+  "parentRequestsEmptyBody": "Teachers you request will appear here.",
+  "@parentRequestsEmptyBody": {
+    "description": "Parent requests empty body"
+  },
+  "myStudentsEmptyTitle": "No students yet",
+  "@myStudentsEmptyTitle": {
+    "description": "My students empty title"
+  },
+  "myStudentsEmptyBody": "Accepted teacher connections will appear here.",
+  "@myStudentsEmptyBody": {
+    "description": "My students empty body"
+  },
+  "teacherHomeTodaySection": "Today",
+  "@teacherHomeTodaySection": {
+    "description": "Teacher home today section"
+  },
+  "teacherHomePendingSection": "Pending",
+  "@teacherHomePendingSection": {
+    "description": "Teacher home pending section"
+  },
+  "teacherHomeStudentsSection": "My students",
+  "@teacherHomeStudentsSection": {
+    "description": "Teacher home students section"
+  },
+  "teacherHomeLearningToday": "{count, plural, =0{No activities today} =1{1 learning activity} other{{count} learning activities}}",
+  "@teacherHomeLearningToday": {
+    "description": "Teacher today activities",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "teacherHomeNeedsAttention": "{count, plural, =1{1 student needs attention} other{{count} students need attention}}",
+  "@teacherHomeNeedsAttention": {
+    "description": "Teacher needs attention count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "teacherHomePendingRequests": "{count, plural, =1{1 teaching request} other{{count} teaching requests}}",
+  "@teacherHomePendingRequests": {
+    "description": "Teacher pending requests count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "teacherHomeViewStudents": "View students",
+  "@teacherHomeViewStudents": {
+    "description": "Teacher quick action"
+  },
+  "teacherHomeViewRequests": "View requests",
+  "@teacherHomeViewRequests": {
+    "description": "Teacher quick action"
+  },
+  "teacherHomeCreateActivity": "Create learning activity",
+  "@teacherHomeCreateActivity": {
+    "description": "Teacher quick action"
+  },
+  "teacherWhyMatch": "Why {name} may be a good match",
+  "@teacherWhyMatch": {
+    "description": "Match explanation header on teacher profile",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "teacherMatchForm": "Teaches {form}",
+  "@teacherMatchForm": {
+    "description": "Match reason: form",
+    "placeholders": {
+      "form": {
+        "type": "String"
+      }
+    }
+  },
+  "teacherMatchSubject": "Teaches {subject}",
+  "@teacherMatchSubject": {
+    "description": "Match reason: subject",
+    "placeholders": {
+      "subject": {
+        "type": "String"
+      }
+    }
+  },
+  "learningEmptyParentTitle": "No learning updates yet",
+  "@learningEmptyParentTitle": {
+    "description": "Parent learning feed empty title"
+  },
+  "learningEmptyParentBody": "Updates from your child's teachers will appear here.",
+  "@learningEmptyParentBody": {
+    "description": "Parent learning feed empty body"
+  },
+  "findTeacherAction": "Find a teacher",
+  "@findTeacherAction": {
+    "description": "Quick action to find a teacher"
+  },
+  "teacherHomeSubtitle": "Your teaching workspace",
+  "@teacherHomeSubtitle": {
+    "description": "Teacher home greeting subtitle"
+  },
+  "discoveryHeaderTitle": "Find a teacher for {name}",
+  "@discoveryHeaderTitle": {
+    "description": "Main header on the discovery screen",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "discoveryViewMap": "Map",
+  "@discoveryViewMap": {
+    "description": "Map/List toggle — map option"
+  },
+  "discoveryViewList": "List",
+  "@discoveryViewList": {
+    "description": "Map/List toggle — list option"
+  },
+  "discoveryNearby": "Nearby",
+  "@discoveryNearby": {
+    "description": "Toggle to sort teachers by distance"
+  },
+  "discoveryOnline": "Online",
+  "@discoveryOnline": {
+    "description": "Filter to teachers who can teach online"
+  },
+  "discoveryFilterSubject": "Subject",
+  "@discoveryFilterSubject": {
+    "description": "Subject filter label"
+  },
+  "discoveryFilterForm": "Form",
+  "@discoveryFilterForm": {
+    "description": "Form filter label"
+  },
+  "discoveryFilterAllSubjects": "All subjects",
+  "@discoveryFilterAllSubjects": {
+    "description": "Subject filter — no subject selected"
+  },
+  "discoveryFilterAllForms": "All forms",
+  "@discoveryFilterAllForms": {
+    "description": "Form filter — no form selected"
+  },
+  "discoveryClearFilters": "Clear",
+  "@discoveryClearFilters": {
+    "description": "Clear the active discovery filters"
+  },
+  "discoveryNearYou": "Teachers near you",
+  "@discoveryNearYou": {
+    "description": "Section label when sorted by distance"
+  },
+  "discoveryInCity": "Teachers in {city}",
+  "@discoveryInCity": {
+    "description": "Section label when location is unavailable but a city is known",
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "discoveryRelevantTeachers": "Relevant teachers",
+  "@discoveryRelevantTeachers": {
+    "description": "Generic section label for the teacher list"
+  },
+  "discoveryResultCount": "{count, plural, =1{1 teacher} other{{count} teachers}}",
+  "@discoveryResultCount": {
+    "description": "Count of teachers shown",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "discoveryBestMatch": "Best match",
+  "@discoveryBestMatch": {
+    "description": "Badge on the single strongest match"
+  },
+  "discoveryLocating": "Finding teachers near you…",
+  "@discoveryLocating": {
+    "description": "Shown while the device location is resolved"
+  },
+  "discoveryUseMyLocation": "Use my location",
+  "@discoveryUseMyLocation": {
+    "description": "Button to enable Nearby via device location"
+  },
+  "discoveryEmptyNearbyTitle": "No teachers found nearby",
+  "@discoveryEmptyNearbyTitle": {
+    "description": "Empty state when nearby has no results"
+  },
+  "discoveryEmptyNearbyBody": "Try another subject, Form, or view all teachers.",
+  "@discoveryEmptyNearbyBody": {
+    "description": "Guidance for the nearby empty state"
+  },
+  "discoveryViewAll": "View all teachers",
+  "@discoveryViewAll": {
+    "description": "Reset filters and show every relevant teacher"
+  },
+  "discoveryLocationUnavailableTitle": "Location isn't available",
+  "@discoveryLocationUnavailableTitle": {
+    "description": "Title when device location can't be used"
+  },
+  "discoveryLocationUnavailableBody": "You can still browse teachers in your area.",
+  "@discoveryLocationUnavailableBody": {
+    "description": "Reassurance when location is unavailable"
+  },
+  "discoveryMapUnavailableTitle": "Map couldn't load",
+  "@discoveryMapUnavailableTitle": {
+    "description": "Title when the map tiles fail"
+  },
+  "discoveryMapUnavailableBody": "Browse teachers in the list instead.",
+  "@discoveryMapUnavailableBody": {
+    "description": "Fallback guidance when the map fails"
+  },
+  "discoveryNoMapForTeacher": "Approximate area only",
+  "@discoveryNoMapForTeacher": {
+    "description": "Shown for a teacher with a city but no map pin"
+  },
+  "discoveryMapAttributionOsm": "© OpenStreetMap",
+  "@discoveryMapAttributionOsm": {
+    "description": "Short map attribution"
+  },
+  "teacherServiceAreaNote": "Teaching area — not a home address.",
+  "@teacherServiceAreaNote": {
+    "description": "Privacy note next to a teacher's location"
+  },
+  "teacherTeachingModeLabel": "Teaching mode",
+  "@teacherTeachingModeLabel": {
+    "description": "Label for teaching mode on a profile"
+  },
+  "teacherTeachingModeOnline": "Online",
+  "@teacherTeachingModeOnline": {
+    "description": "Teaching mode: online only"
+  },
+  "teacherTeachingModeInPerson": "In person",
+  "@teacherTeachingModeInPerson": {
+    "description": "Teaching mode: in person only"
+  },
+  "teacherTeachingModeBoth": "Online + In person",
+  "@teacherTeachingModeBoth": {
+    "description": "Teaching mode: both"
+  },
+  "teacherModeQuestion": "How do you teach?",
+  "@teacherModeQuestion": {
+    "description": "Section header for teaching mode in profile editing"
+  },
+  "teacherModeHint": "Parents will see whether you can teach in person, online, or both.",
+  "@teacherModeHint": {
+    "description": "Hint under the teaching mode selector"
+  },
+  "teacherPinAreaTitle": "Approximate map location (optional)",
+  "@teacherPinAreaTitle": {
+    "description": "Section header for optional coordinate pinning"
+  },
+  "teacherPinAreaHint": "Add a rough pin so parents can see your area on the map. We round it so it never shows your exact address.",
+  "@teacherPinAreaHint": {
+    "description": "Explains coarse coordinate pinning before requesting location"
+  },
+  "teacherPinAreaButton": "Use my current area",
+  "@teacherPinAreaButton": {
+    "description": "Button to set approximate coordinates from device location"
+  },
+  "teacherPinAreaSet": "Approximate area set",
+  "@teacherPinAreaSet": {
+    "description": "Confirmation that coarse coordinates were captured"
+  },
+  "teacherPinAreaClear": "Remove pin",
+  "@teacherPinAreaClear": {
+    "description": "Remove the approximate coordinates"
+  },
+  "teacherPinAreaDenied": "Location permission is off. You can still enter your city and area above.",
+  "@teacherPinAreaDenied": {
+    "description": "Shown when location permission is denied during pinning"
+  },
+  "teacherWhyMatchFor": "Why {teacherName} is a good match for {childName}",
+  "@teacherWhyMatchFor": {
+    "description": "Match explanation header with both teacher and child names",
+    "placeholders": {
+      "teacherName": {
+        "type": "String"
+      },
+      "childName": {
+        "type": "String"
+      }
+    }
+  },
+  "teacherMatchArea": "Covers {area}",
+  "@teacherMatchArea": {
+    "description": "Match reason: teacher covers the area",
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    }
+  },
+  "profilePhotoChange": "Change photo",
+  "@profilePhotoChange": {
+    "description": "Button to change profile photo"
+  },
+  "profilePhotoRemove": "Remove photo",
+  "@profilePhotoRemove": {
+    "description": "Button to remove profile photo"
+  },
+  "profilePhotoUpload": "Add photo",
+  "@profilePhotoUpload": {
+    "description": "Button to upload a profile photo"
+  },
+  "profilePhotoUploading": "Uploading photo…",
+  "@profilePhotoUploading": {
+    "description": "Shown while a profile photo is being uploaded"
+  },
+  "profilePhotoError": "Could not update photo. Please try again.",
+  "@profilePhotoError": {
+    "description": "Error when photo upload or removal fails"
+  },
+  "profilePhotoRemoved": "Photo removed",
+  "@profilePhotoRemoved": {
+    "description": "Snackbar after photo is removed"
+  },
+  "profilePhotoUpdated": "Photo updated",
+  "@profilePhotoUpdated": {
+    "description": "Snackbar after photo is uploaded"
+  },
+  "homeTutorLabel": "Home Tutor",
+  "@homeTutorLabel": {
+    "description": "Label shown on a teacher profile indicating home/physical tutoring"
+  },
+  "homeTutoringSection": "Home tutoring",
+  "@homeTutoringSection": {
+    "description": "Section header for home tutoring information"
+  },
+  "homeTutoringBadge": "In-home tutoring",
+  "@homeTutoringBadge": {
+    "description": "Badge indicating teacher provides home tutoring"
+  },
+  "teacherAreasSection": "Teaching areas",
+  "@teacherAreasSection": {
+    "description": "Section header for teaching areas"
+  },
+  "reviewsSection": "Reviews",
+  "@reviewsSection": {
+    "description": "Section header for reviews"
+  },
+  "reviewsEmptyTitle": "No reviews yet",
+  "@reviewsEmptyTitle": {
+    "description": "Empty state when there are no reviews"
+  },
+  "qualificationsSection": "Qualifications",
+  "@qualificationsSection": {
+    "description": "Section header for qualifications"
+  },
+  "qualificationsEmpty": "Not listed yet.",
+  "@qualificationsEmpty": {
+    "description": "Shown when qualifications are not available"
+  },
+  "experienceSection": "Experience",
+  "@experienceSection": {
+    "description": "Section header for teaching experience"
+  },
+  "profileAccountSection": "Account",
+  "@profileAccountSection": {
+    "description": "Section header for account settings"
+  },
+  "profileEditAvailability": "Edit availability",
+  "@profileEditAvailability": {
+    "description": "Button to edit teaching availability"
+  },
+  "requestThisTeacher": "Request this teacher",
+  "@requestThisTeacher": {
+    "description": "Primary CTA on public teacher profile"
+  },
+  "availabilitySection": "Availability",
+  "@availabilitySection": {
+    "description": "Section header for availability"
+  },
+  "fieldPhone": "Phone number",
+  "@fieldPhone": {
+    "description": "Phone number field label on sign in and sign up"
+  },
+  "fieldPin": "PIN",
+  "@fieldPin": {
+    "description": "PIN field label"
+  },
+  "fieldPinConfirm": "Confirm PIN",
+  "@fieldPinConfirm": {
+    "description": "Second PIN field on sign up"
+  },
+  "validationPhoneInvalid": "Enter a valid number, e.g. 670 00 00 00.",
+  "@validationPhoneInvalid": {
+    "description": "Shown for a malformed phone number"
+  },
+  "validationPinInvalid": "Your PIN must be 4 to 6 digits.",
+  "@validationPinInvalid": {
+    "description": "Shown for a malformed PIN"
+  },
+  "validationPinMismatch": "The two PINs do not match.",
+  "@validationPinMismatch": {
+    "description": "Shown when the confirmation PIN differs"
+  },
+  "pinHelper": "Choose 4 to 6 digits you will remember.",
+  "@pinHelper": {
+    "description": "Helper text under the PIN field on sign up"
+  }
+}

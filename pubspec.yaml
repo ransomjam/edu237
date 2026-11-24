@@ -1,0 +1,60 @@
+name: edu237
+description: "Camiva - education platform for Cameroon."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  go_router: ^14.6.3
+  supabase_flutter: ^2.8.4
+  flutter_map: ^8.3.1
+  latlong2: ^0.10.1
+  geolocator: ^14.0.2
+  image_picker: ^1.2.2
+  url_launcher: ^6.3.2
+  firebase_core: ^4.13.0
+  firebase_messaging: ^16.5.0
+  crypto: ^3.0.7
+  # Browser APIs for the web half of lib/core/platform/ bridges. Already a
+  # transitive dependency; declared because lib/ imports it directly.
+  web: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/brand/
+    - assets/images/teacher_cover.jpg
+    - assets/icons/phosphor/
+
+# App icon generation. Run after changing the source image:
+#   dart run flutter_launcher_icons
+flutter_launcher_icons:
+  image_path: "assets/brand/app_icon.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  # Android 8+ masks the icon to whatever shape the launcher uses, so the mark
+  # is supplied separately from its background. Both layers come from
+  # tool/build_brand_icons.py, so the home-screen icon carries the same
+  # gradient as the store listing rather than a flat approximation of it.
+  adaptive_icon_background: "assets/brand/icon_background.png"
+  adaptive_icon_foreground: "assets/brand/icon_foreground.png"
+  web:
+    generate: true
+  windows:
+    generate: true

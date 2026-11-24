@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "556129976335",
+    "project_id": "jam-s-projects",
+    "storage_bucket": "jam-s-projects.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556129976335:android:b7a232585089bddeab237a",
+        "android_client_info": {
+          "package_name": "com.example.camiva"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMFCDlr981Wg3ZWNHxm-MGNbTYZV_aDcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

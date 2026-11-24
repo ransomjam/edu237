@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Brand colours referenced from AndroidManifest.xml.
+
+  Kept out of values/colors.xml on purpose: flutter_launcher_icons rewrites
+  that file wholesale every time the icons are regenerated, which silently
+  deleted this colour once and broke the notification meta-data reference.
+-->
+<resources>
+    <!-- The deep blue the app icon gradient starts from. Android tints the
+         notification silhouette with it. -->
+    <color name="camiva_notification">#0330DB</color>
+</resources>
